@@ -70,20 +70,7 @@ CREATE TABLE quizzes (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create questions table
-CREATE TABLE questions (
-  id SERIAL PRIMARY KEY,
-  quiz_id INT REFERENCES quizzes(id),
-  question_text TEXT NOT NULL
-);
 
--- Create options table
-CREATE TABLE options (
-  id SERIAL PRIMARY KEY,
-  question_id INT REFERENCES questions(id),
-  option_text TEXT NOT NULL,
-  is_correct BOOLEAN NOT NULL DEFAULT FALSE
-);
 ```
 
 ### 4. Configure Environment Variables
