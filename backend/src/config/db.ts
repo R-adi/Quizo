@@ -8,7 +8,7 @@ const pool = new pg.Pool({
 // Password you set during installation
  
 
-  connectionString: process.env.DATABASE_URL, // Use the connection string
+  connectionString: process.env.DB_URL, // Use the connection string
   ssl: { rejectUnauthorized: false }, // Required for Render
 });
 
