@@ -102,7 +102,8 @@ SESSION_SECRET=your-secret-key
 #### Backend
 ```bash
 cd backend
-npm run dev
+npx tsc
+node dist/app.js
 ```
 Server runs at `http://localhost:5000`.
 
