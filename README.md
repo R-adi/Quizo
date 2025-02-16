@@ -11,6 +11,10 @@ Quizo is a platform where teachers can create, manage, and view quizzes. It incl
 - **Multi-Choice Question Support**: Add multiple-choice questions to quizzes.
 - **Timer Functionality**: Set a time limit for quiz completion.
 
+  ## Screenshots
+![Quizo Homepage](assets/screenshot.png)
+
+
 ## Tech Stack
 - **Frontend**: React + TypeScript, ShadCN UI, Vite
 - **Backend**: TypeScript, Express, PostgreSQL
