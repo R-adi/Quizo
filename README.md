@@ -12,7 +12,7 @@ Quizo is a platform where teachers can create, manage, and view quizzes. It incl
 - **Timer Functionality**: Set a time limit for quiz completion.
 
   ## Screenshots
-![Quizo Homepage](assets/screenshot.png)
+![Quizo Homepage](frontend/src/assets/screenshot(102).png)
 
 
 ## Tech Stack
