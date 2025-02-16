@@ -1,6 +1,6 @@
 // src/controllers/quizController.ts
 import { Request, Response } from 'express';
-import db from '../config/db';
+import db from '../config/db.js';
 
 export const createQuiz:any = async (req: Request, res: Response) => {
   const { title, description } = req.body;

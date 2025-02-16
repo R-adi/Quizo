@@ -1,8 +1,8 @@
 // src/app.ts
 import express from 'express';
 import session from 'express-session';
-import authRoutes from './routes/authRoutes';
-import quizRoutes from './routes/quizRoutes';
+import authRoutes from './routes/authRoutes.js';
+import quizRoutes from './routes/quizRoutes.js';
 import cors from 'cors';
 
 const app = express();

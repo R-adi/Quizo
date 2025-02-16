@@ -1,10 +1,10 @@
 
 
 // src/config/db.ts
-import { Pool } from 'pg';
+import pg from 'pg';
 import 'dotenv/config';
 
-const pool = new Pool({
+const pool = new pg.Pool({
   user: process.env.DB_USER || 'postgres', // Default user
   host: process.env.DB_HOST || 'localhost',
   database: process.env.DB_NAME || 'quizo',

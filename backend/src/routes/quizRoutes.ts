@@ -1,7 +1,7 @@
 // src/routes/quizRoutes.ts
 import express from 'express';
-import quizController from '../controllers/quizController';
-import middleware from '../middleware';
+import quizController from '../controllers/quizController.js';
+import middleware from '../middleware.js';
 
 const router = express.Router();
 

@@ -1,6 +1,6 @@
 // src/controllers/authController.ts
 import { Request, Response } from 'express';
-import db from '../config/db';
+import db from '../config/db.js';
 
 // Signup function
 export const signup:any = async (req: Request, res: Response) => {
