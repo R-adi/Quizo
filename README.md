@@ -97,6 +97,10 @@ DB_PASSWORD=your_db_password
 DB_PORT=5432
 SESSION_SECRET=your-secret-key
 ```
+## else add your postgre server link
+```env
+DB_URL=your server database link
+```
 
 ### 5. Running the Application
 #### Backend
